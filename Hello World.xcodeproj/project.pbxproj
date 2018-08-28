@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		735B6FC22134B34C00AF5E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B6FC12134B34C00AF5E3C /* AppDelegate.swift */; };
-		735B6FC42134B34C00AF5E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B6FC32134B34C00AF5E3C /* ViewController.swift */; };
 		735B6FC72134B34C00AF5E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735B6FC52134B34C00AF5E3C /* Main.storyboard */; };
 		735B6FC92134B34D00AF5E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735B6FC82134B34D00AF5E3C /* Assets.xcassets */; };
 		735B6FCC2134B34D00AF5E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735B6FCA2134B34D00AF5E3C /* LaunchScreen.storyboard */; };
+		735B70102134CFF200AF5E3C /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B700F2134CFF200AF5E3C /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		735B6FBE2134B34C00AF5E3C /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		735B6FC12134B34C00AF5E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		735B6FC32134B34C00AF5E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		735B6FC62134B34C00AF5E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		735B6FC82134B34D00AF5E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		735B6FCB2134B34D00AF5E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		735B6FCD2134B34D00AF5E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735B700F2134CFF200AF5E3C /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				735B6FC12134B34C00AF5E3C /* AppDelegate.swift */,
-				735B6FC32134B34C00AF5E3C /* ViewController.swift */,
 				735B6FC52134B34C00AF5E3C /* Main.storyboard */,
 				735B6FC82134B34D00AF5E3C /* Assets.xcassets */,
 				735B6FCA2134B34D00AF5E3C /* LaunchScreen.storyboard */,
 				735B6FCD2134B34D00AF5E3C /* Info.plist */,
+				735B700F2134CFF200AF5E3C /* HelloWorldViewController.swift */,
 			);
 			path = "Hello World";
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735B6FC42134B34C00AF5E3C /* ViewController.swift in Sources */,
+				735B70102134CFF200AF5E3C /* HelloWorldViewController.swift in Sources */,
 				735B6FC22134B34C00AF5E3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
